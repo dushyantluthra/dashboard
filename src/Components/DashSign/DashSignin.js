@@ -1,7 +1,10 @@
 import React from 'react';
 import './DashSignin.css';
 import ThirdpartySign from './ThirdpartySign';
- 
+import { Link, BrowserRouter as Router } from 'react-router-dom';
+
+
+
 const DashSignin = () => {
     return (
         <div className="wrapper-signin">
@@ -34,7 +37,13 @@ Password
 <button className="submit-btn">
 Sign In</button>
 </form>
-<div>Sign up</div>
+<div>
+<Router>
+<Link to="/signup">
+Sign up here
+</Link>
+</Router>
+</div>
 </div>
        
         </div>
