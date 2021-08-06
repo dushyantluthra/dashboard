@@ -1,0 +1,13 @@
+.search-input{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.input-field{
+   
+    border-radius: 10px;
+    width: 180px;
+    background:#FFFFFF;
+
+}

@@ -1,0 +1,142 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.875em;
+    background: #0D5F9A;
+    justify-content: space-between;
+}
+
+
+span{
+margin-right: 6.5%;
+padding-top: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+
+
+.top, .bottom{
+color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+
+}
+
+.top{
+    padding: 3.75em 0em 0em 3.125em;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    margin-bottom: 3.75rem;
+}
+
+
+.menu-items *{
+    /* border: solid; */
+    display: flex;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+
+
+
+
+.bottom{
+    padding: 0em 0em 3.75em 3.125em;
+    font-size: 0.875rem;
+line-height: 1.066875em;
+
+}
+
+.help{
+    margin-bottom: 1.25em;
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:1366px) and (max-height:768px){
+
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.1em;
+    background: #0D5F9A;
+    justify-content: space-between;
+}
+
+
+span{
+margin-right: 6.5%;
+padding-top: 2px;
+display: flex;;
+align-items: center;
+justify-content: center;
+    
+}
+
+.top, .bottom{
+color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+
+}
+
+.top{
+    padding: 15% 0% 0em 18%;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    margin-bottom: 25%;
+}
+
+
+.menu-items *{
+    display: flex;
+    font-size: 0.9rem;
+    line-height: 1.375rem;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+
+.bottom{
+    padding: 0em 0em 5% 18%;
+    font-size: 0.9rem;
+line-height: 1em;
+cursor: not-allowed;
+
+}
+
+.help{
+    margin-bottom: 1.25em;
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+
+
+}

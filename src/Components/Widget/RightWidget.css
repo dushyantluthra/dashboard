@@ -1,0 +1,70 @@
+.right-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 48%;
+    background: white;
+    border-radius: 20px;
+    padding: 1.0em 1.5em 1.0em 1.5em;
+}
+
+.right-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+
+.right-title-left{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1.125rem;
+line-height: 1.375rem;
+color: #000000;
+}
+
+.right-title-right{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75rem;
+line-height: 0.93rem;
+color: #858585;
+}
+
+.right-widget-tasks{
+    /* margin-top: 1.5625em; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.task-heading{
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 0.875rem;
+line-height: 1.0625rem;
+color: #666666;
+padding-left: 0.5rem;
+}
+
+.task-time, .task-location{
+padding-left: 0.5rem;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75rem;
+line-height: 0.875rem;
+color: #999999;
+/* border: 1px solid; */
+padding-top: 0.5rem;
+}
+

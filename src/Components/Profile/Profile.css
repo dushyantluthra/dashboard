@@ -1,0 +1,200 @@
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 1.875em;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.profile-left{
+    height: 100%;
+    width: 31.62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+.profile-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1.125rem;
+line-height: 1.375rem;
+color: #000000;
+margin-bottom: 1.5rem;
+}
+
+.profile-right{
+    width: 63%;
+    height: 100%;
+}
+
+.pf-label, .input-pf{
+    display: block;
+}
+
+.pf-label{
+    font: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin-bottom: 1.25rem;
+}
+.input-pf{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.6rem;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pname{
+    width: 90%;
+}
+
+.change-btn{
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    border: 1px solid #858585;
+    color: #858585;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+    padding: 0.25rem 0.9rem 0.25rem 0.9rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+
+}
+
+.change-btn:hover{
+    box-shadow: 2px 2px 5px gray;
+}
+.change-btn:active{
+    background: #858585;
+    color: white;
+}
+
+@media only screen and (max-width:1366px) and (max-height:768px){
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 1.5em;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.profile-left{
+    height: 100%;
+    width: 25.62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+.profile-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1.125rem;
+line-height: 1.375rem;
+color: #000000;
+margin-bottom: 1.5rem;
+}
+
+.profile-right{
+    width: 67%;
+    height: 100%;
+}
+
+.pf-label, .input-pf{
+    display: block;
+}
+
+.pf-label{
+    font: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin-bottom: 1.25rem;
+}
+.input-pf{
+    width: 100%;
+    height: 2.4rem;
+    margin-top: 0.6rem;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pname{
+    width: 90%;
+}
+
+.change-btn{
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    border: 1px solid #858585;
+    color: #858585;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 0.7rem;
+    padding: 0.25rem 0.9rem 0.25rem 0.9rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+    cursor: pointer;
+
+}
+
+.change-btn:hover{
+    box-shadow: 2px 2px 5px gray;
+}
+.change-btn:active{
+    background: #858585;
+    color: white;
+}
+
+}
