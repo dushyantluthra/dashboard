@@ -34,18 +34,24 @@ Password
 <input className="input-info" type="password" placeholder="Enter Password" required defaultValue="123456789"/>
 </label>
 <div className="forgot-pass"><a href="#">Forgot password?</a></div>
+
+<Router>
+<Link to="/homepage">
 <button className="submit-btn">
 Sign In</button>
+</Link>
+</Router>
 </form>
-<div>
+
+</div>
+       <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+Don't have an account? 
 <Router>
 <Link to="/signup">
-Sign up here
+Register here
 </Link>
 </Router>
 </div>
-</div>
-       
         </div>
     );
 };

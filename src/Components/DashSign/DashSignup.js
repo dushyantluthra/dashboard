@@ -1,7 +1,7 @@
 import React from 'react';
 import './DashSignin.css';
 import ThirdpartySign from './ThirdpartySign';
-
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 const DashSignup = () => {
     return (
@@ -98,7 +98,14 @@ Confirm Password
 Sign Up</button>
 </form>
 </div>
-      
+      <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+Already have an account? 
+<Router>
+<Link to="/signin">
+Signin here
+</Link>
+</Router>
+</div>
         </div>
     );
 };

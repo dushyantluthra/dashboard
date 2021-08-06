@@ -10,10 +10,19 @@ function App() {
     <div className="container">
     <Router>
     <Switch>
-    <Route path='/signup'>
+    <Route path="/signin" component={Signin}>
+    <Signin/>
+    </Route>
+    
+
+    <Route path='/signup' component={Signup}>
     <Signup/>
     </Route>
-    <Signin/>
+    
+    
+    <Route path='/homepage' component={Homepage}>
+    <Homepage/>
+    </Route>
     </Switch>
     </Router>
     </div>
