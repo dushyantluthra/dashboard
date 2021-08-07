@@ -100,11 +100,11 @@ Sign Up</button>
 </div>
       <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
 Already have an account? 
-<Router>
-<Link to="/signin">
+
+<Link to="/">
 Signin here
 </Link>
-</Router>
+
 </div>
         </div>
     );
