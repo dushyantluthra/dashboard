@@ -17,19 +17,8 @@ const Homepage = () => {
 		setCurrentPage(e);
 	};
 
-	const [screenX, setScreenX] = useState()
-	const [screenY, setScreenY] = useState()
-
-	window.addEventListener('resize', ()=>{
-		setScreenX(window.innerWidth)
-		setScreenY(window.innerHeight)
-	})
 	return (
 <div  className='wrapper' >
-		{
-		(screenY<=500 || screenX<=1024)? <div style={{background:'white', height:'100vh', width:'100%', display:'flex', alignItems:'center', justifyContent:'center'}} screenre><h1>Sorry, This website is optimised only for dektops/laptops. Plaese use another device :(</h1></div>
-		:
-		<div style={{height:'100%', width:'100%'}}>
 			<div className='page-layout'>
 				<div className='side-tabs'>
 					<Sidebar onClickValue={changeHandler} />
@@ -66,8 +55,8 @@ const Homepage = () => {
 				</div>
 			</div>
 		</div>	
-		}
-		</div>
+		
+
 		
 	);
 };
