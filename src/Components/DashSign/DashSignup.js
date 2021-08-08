@@ -94,8 +94,11 @@ Confirm Password
 <span className="register-here">I agree the <a href="#" style={{marginLeft:'3px'}}>terms and conditions</a></span>
 </div>
 
+<Link to="">
 <button className="submit-btn" disabled={false}>
 Sign Up</button>
+</Link>
+
 </form>
 </div>
       <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
